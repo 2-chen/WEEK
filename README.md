@@ -1,2 +1,2 @@
-# week-report
+# WEEK
 读博周报
