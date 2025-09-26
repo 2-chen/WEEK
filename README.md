@@ -1,2 +1,48 @@
 # WEEK
 读博周报
+# 具身智能概念学习
+## [MPC(Model Predictive Control)](https://www.sciencedirect.com/science/article/abs/pii/0005109889900022)
+* 预测：动态模型预测系统行为
+* 优化：求最优化未来性能的一系列控制操作
+* 执行：执行最优化后的第一个操作
+
+## VLA
+* Vision：通过视觉感知
+* Language：通过自然语言感知
+* Action：模型控制机器实体
+
+## 计算机视觉
+**三维视觉**
+* 视差
+* 结构光
+* 激光测距
+
+**四维视觉**
+* 视频理解Vid-LLMs
+
+**可供性锚定**
+* 可供性：潜在交互方式
+* 锚定：在实时感知中保持
+
+## 控制理论
+**PID算法**(Proportional-Integral-Derivative)
+* 比例项(P)：处理偏差
+* 积分项(I)：处理偏差的累积
+* 微分项(D)：处理偏差的变化趋势
+
+## 触觉
+**信号处理任务**
+* 接触区域感知
+* 三维重构
+* 滑动检测
+
+[**触觉大模型**](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Binding_Touch_to_Everything_Learning_Unified_Multimodal_Tactile_Representations_CVPR_2024_paper.pdf)
+* 跨传感器触觉表示：模型同时处理传感器的特有属性信息
+* 对齐多模态：将触觉信号特征映射到已有的多模态模型的特征空间中
+
+# Pytorch使用
+下载配置Pytorch环境，使用LR CNN FNN，跑一个Pytorch案例（Mnist 手写数字识别）
+
+# 算力集群使用
+* 创建cci示例
+* 创建存储桶
